@@ -1,4 +1,4 @@
-// Wait for DOM to load
+////////// Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all components
     initLetter();
@@ -601,6 +601,7 @@ function initAudioPlayer() {
         { title: "Rock and Roll All Nite", artist: "Kiss", file: "./music/rock-and-roll-all-nite.mp3" },
         { title: "Smells Like Teen Spirit", artist: "Nirvana", file: "./music/smells-like-teen-spirit.mp3" },
         { title: "Beggin'", artist: "Maneskin", file: "./music/beggin.mp3" }
+        { title: "Termonuclear'", artist: "Perfecto Miserable", file: "./music/termonuclear.mp3" }
     ];
 
     let currentTrack = 0;
